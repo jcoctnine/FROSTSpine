@@ -67,11 +67,9 @@ FROSTSpine/
   frostspine/            # Segmentation, preprocessing, clustering, and geometry
   dinov3/                # Minimal ViT inference dependencies
   examples/              # Target image and reference pairs
-  weights/README.md      # Checkpoint placement instructions
+  weights/     # Checkpoint placement instructions
   requirements.txt
-  LICENSE
-  DINOV3_LICENSE
-  NOTICE.md
+  README.md 
 ```
 
 This folder can serve as the root of a standalone GitHub repository. `.gitignore` excludes checkpoints, outputs, and caches. See [NOTICE.md](NOTICE.md) for attribution, modifications, and licensing.
