@@ -27,7 +27,7 @@ Weights are approximately 1.2 GB and excluded from Git. Place them in `weights/`
 From this project directory, run the bundled example:
 
 ```bash
-python run.py --weights path/to/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth
+python run.py 
 ```
 
 The default input is `examples/image.png`. To use another image:
